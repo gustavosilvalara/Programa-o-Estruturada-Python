@@ -25,7 +25,7 @@ while True:
 # Marcação de concluída caso a tenha tarefas na lista
     elif opcao == 3 and len(tarefas) > 0:
         remover = input("Qual tarefa deseja marcar como concluída: ")
-# Verificação se a palavra digita pela usuário foi adicionada antes de remover
+# Verificação se a palavra digita pelo usuário foi adicionada antes de remover
         if not tarefas.__contains__(remover):
             print("A tarefa não foi adicionada")
         else:
