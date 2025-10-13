@@ -19,6 +19,7 @@ def media_vendas(lista = ()):
 # Inicialização da lista e menu interativo com uma variável para armazenar a opção escolhida
 print("==================== Análisador de vendas ====================")
 lista_venda = []
+
 while True:
     print("\n1 - Adicionar vendas do dia")
     print("2 - Venda total")

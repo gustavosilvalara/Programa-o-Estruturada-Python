@@ -2,7 +2,7 @@ tarefas = []
 
 while True:
 # Menu para escolha
-    print("\nDigite uma opção")
+    print("\nEscolha uma opção")
     print("1 - Adicionar uma tarefa")
     print("2 - Visualizar todas as tarefas")
     print("3 - Marcar uma tarefa como concluída")
@@ -33,3 +33,5 @@ while True:
 # Marcação caso não tenha tarefas na lista
     elif opcao == 3 and len(tarefas) <= 0:
         print("É necessario adicionar tarefas para concluí-la")
+    else:
+        print("Digite uma opção valida")
